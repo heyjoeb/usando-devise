@@ -1,0 +1,29 @@
+// Place all the styles related to the Public controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.devise- {
+	.nav {
+		h1 {
+			color: #fff
+		}
+	}
+	.centered {
+		text-align: center
+	}
+	.default- {
+		p {
+			margin: 0
+		}
+		.alert {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+	}
+	.actions {
+		margin-bottom: 25px;
+	}
+
+}

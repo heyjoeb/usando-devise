@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Devise</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="devise-">
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><h1>Devise</h1></li>
+				</ul>
+	        </div><!--/.nav-collapse -->
+	    </div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 default- centered">
+				<div class="alert alert-success">
+					<p><%= notice %></p>
+				</div>
+
+				<div class="alert alert-danger">
+					<p><%= alert %></p>
+				</div>
+			</div>
+			<%= yield %>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
